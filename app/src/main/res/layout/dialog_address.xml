@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_detailbtn"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/dg_ads_tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/addaddress"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/dg_ads_iv_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:src="@mipmap/icon_close" />
+
+    <TextView
+        android:id="@+id/dg_ads_line1"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/dg_ads_tv_title"
+        android:layout_margin="10dp"
+        android:textColor="@color/grey" />
+
+    <TextView
+        android:id="@+id/dg_ads_tv_shr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dg_ads_line1"
+        android:text="@string/shr"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/dg_ads_et_shr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dg_ads_line1"
+        android:layout_alignBaseline="@id/dg_ads_tv_shr"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/dg_ads_tv_shr"
+        android:background="@null"
+        android:hint="@string/shr_name"
+        android:textColor="@color/darkgrey"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dg_ads_line2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/dg_ads_tv_shr"
+        android:layout_margin="10dp"
+        android:textColor="@color/grey" />
+
+    <TextView
+        android:id="@+id/dg_ads_tv_tel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dg_ads_line2"
+        android:text="@string/tel"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/dg_ads_et_tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dg_ads_line2"
+        android:layout_alignBaseline="@id/dg_ads_tv_tel"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/dg_ads_tv_tel"
+        android:background="@null"
+        android:hint="@string/shr_tel"
+        android:textColor="@color/darkgrey"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dg_ads_line3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/dg_ads_tv_tel"
+        android:layout_margin="10dp"
+        android:textColor="@color/grey" />
+
+    <TextView
+        android:id="@+id/dg_ads_tv_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dg_ads_line3"
+        android:text="@string/loc"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/dg_ads_et_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dg_ads_line3"
+        android:layout_alignBaseline="@id/dg_ads_tv_city"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/dg_ads_tv_city"
+        android:background="@null"
+        android:hint="@string/shr_loc"
+        android:textColor="@color/darkgrey"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dg_ads_line4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/dg_ads_tv_city"
+        android:layout_margin="10dp"
+        android:textColor="@color/grey" />
+
+    <TextView
+        android:id="@+id/dg_ads_tv_street"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dg_ads_line4"
+        android:text="@string/street"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/dg_ads_et_street"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dg_ads_line4"
+        android:layout_alignBaseline="@id/dg_ads_tv_street"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/dg_ads_tv_street"
+        android:background="@null"
+        android:hint="@string/shr_datails"
+        android:textColor="@color/darkgrey"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/dg_ads_line5"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/dg_ads_tv_street"
+        android:layout_margin="10dp"
+        android:textColor="@color/grey" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/dg_ads_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dg_ads_line5"
+        android:background="@drawable/bg_btn"
+        android:text="@string/save"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+</RelativeLayout>

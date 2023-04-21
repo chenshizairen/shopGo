@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CartActivity">
+
+    <com.animee.rf_week02.view.TitleView
+        android:id="@+id/cart_titleview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/cart_bottomlayout"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:gravity="right"
+        android:padding="5dp">
+        <TextView
+            android:id="@+id/cart_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总计 :"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+        <TextView
+            android:id="@+id/cart_tv_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$ 100"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/red"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cart_btn_buy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_btn"
+            android:textColor="@color/white"
+            android:text="@string/buy" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/cart_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+        android:layout_above="@id/cart_bottomlayout" />
+    <ListView
+        android:id="@+id/cart_lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/cart_titleview"
+        android:layout_above="@id/cart_line" />
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">RF_Week02</string>
+    <string name="main_title">安心Go</string>
+    <string name="dt_search">点击搜索</string>
+    <string name="dt_sort">价格排序</string>
+    <string name="dt_list">列表展示</string>
+    <string name="dt_grid">网格展示</string>
+    <string name="buy">购买</string>
+    <string name="unsetdefault">设定为默认</string>
+    <string name="setdefault">已设定为默认</string>
+    <string name="update">修改</string>
+    <string name="delete">删除</string>
+    <string name="settop">置顶</string>
+    <string name="copy">复制</string>
+    <string name="addaddress">添加收货地址</string>
+    <string name="address">收货地址</string>
+    <string name="cart">购物车</string>
+    <string name="shr">收货人:</string>
+    <string name="shr_name">收货人姓名</string>
+    <string name="shr_tel">收货人手机号</string>
+    <string name="tel">手机号:</string>
+    <string name="loc">地    区:</string>
+    <string name="street">地    址:</string>
+    <string name="shr_loc">地区省市</string>
+    <string name="shr_datails">如街道, 门牌号, 小区, 村镇等</string>
+    <string name="save">保存</string>
+    <string name="addcart">加入购物车</string>
+</resources>
