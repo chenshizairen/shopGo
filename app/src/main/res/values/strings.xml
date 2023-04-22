@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">RF_Week02</string>
+    <string name="app_name">安心GO</string>
     <string name="main_title">安心Go</string>
     <string name="dt_search">点击搜索</string>
     <string name="dt_sort">价格排序</string>

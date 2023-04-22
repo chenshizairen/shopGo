@@ -15,7 +15,7 @@ import com.animee.rf_week02.R;
  * 当这个类的某项事件由他触发, 但是功能不是由他决定, 就可以用接口回调解决
  * 1. 创建接口, 编写回调方法
  * 2. 在这个类中, 将接口设置为成员变量, 然后通过set方法对其进行赋值
- * 2. 在被触发的地方调用这个接口的方法
+ * 2. 在被触法发的地方调用这个接口的方
  */
 public class TitleView extends RelativeLayout implements View.OnClickListener {
     private ImageView leftIv, rightIv;
